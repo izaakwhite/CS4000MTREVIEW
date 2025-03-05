@@ -28,6 +28,9 @@ dl_omp.out: deadlock_omp.cc
 
 barrier.out: barrier.cc
 	$(CXX) $(CXXFLAGS) -fopenmp $^ -o $@
+
+nodeadlock.out: nodeadlock.cc
+	$(CXX) $(CXXFLAGS) -fopenmp $^ -o $@
 # Clean target to remove generated files
 clean:
 	rm -f $(TARGETS)

@@ -16,6 +16,28 @@ at the same time due to improper synchronization leading to non-determintistic b
 4. Q: Process Synchronization (Barriers/Semaphore, etc.)
    A: Process synchronization ensures that multiple processes or threads execute in a coordinated manner to prevent race conditions and ensure correct execution. It uses mechanisms like barriers (forcing threads to wait until all reach a point) and semaphores (signals to control resource access).
 
-Chat Prompt
-give me a short answer for the definition of
- Process Synchronization (Barriers/Semaphore, etc.)
+5. Thread Safety
+Thread safety ensures that shared data is accessed and modified correctly when multiple threads execute concurrently, preventing race conditions and undefined behavior.
+
+6. Amdahl’s Law
+Amdahl’s Law states that the speedup of a program using multiple processors is limited by the portion of the program that remains sequential.
+
+7. Efficiency
+Efficiency in parallel computing measures how well computational resources are utilized.
+
+8. Speedup
+Speedup measures performance improvement when using multiple processors
+
+9. OpenMP Environment Variables
+OpenMP uses environment variables to control execution. 
+
+10. Concurrent Computing
+A computing model where multiple tasks overlap in execution but may not run simultaneously. Tasks share resources and can be interleaved.
+
+11. Parallel Computing
+A model where multiple tasks run simultaneously on different processors or cores, dividing work for faster execution.
+
+12. Distributed Computing
+A model where multiple independent computers (nodes) communicate over a network to complete a task collaboratively, often used in large-scale computing.
+
+Let me know if you need any modifications or additional clarifications!
