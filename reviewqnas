@@ -1,0 +1,21 @@
+CS4000-MT-Review
+Short Answer & Definitions:
+1. Q: What is a race condition ?
+
+   A: A race condition occurs 2+ threads update a shared part of memory
+at the same time due to improper synchronization leading to non-determintistic behaviour.
+
+2. Q: Critical Section
+
+   A: A critical section is a part of a program where a shared resource is accessed and must be executed by only one thread at a time to prevent race conditions.
+
+3. Q: Deadlock
+
+   A: A deadlock occurs when two or more threads are waiting for each other to release resources, causing a cycle where no thread can proceed
+
+4. Q: Process Synchronization (Barriers/Semaphore, etc.)
+   A: Process synchronization ensures that multiple processes or threads execute in a coordinated manner to prevent race conditions and ensure correct execution. It uses mechanisms like barriers (forcing threads to wait until all reach a point) and semaphores (signals to control resource access).
+
+Chat Prompt
+give me a short answer for the definition of
+ Process Synchronization (Barriers/Semaphore, etc.)
